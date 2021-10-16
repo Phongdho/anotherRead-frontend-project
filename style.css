@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600&display=swap');
+
+body {
+    background-color: lightgray;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.navbar {
+    position: relative;
+    z-index: 1;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    max-width: 90vw;
+    margin: 1rem auto;
+    backdrop-filter: saturate(200%) blur(30px);
+    background-color: rgba(184, 151, 151, 0.4) !important;
+    border-radius: .75rem;
+}
+
+.nav-title {
+    font-weight: 600!important;
+}
+
+.me-2 {
+    height: 70%;
+    opacity: 0.8;
+    margin-top: 2px;
+}
+
+.me-3 {
+    height: 36px;
+    border: none;
+    color: white;
+    background-color: darksalmon;
+    margin-top: 2px;
+}
+
+.me-3:hover {
+    background-color: brown;
+}
+
+.masthead {
+    background-image: url(image/background.jpeg);
+    background-size: cover;
+    color: white;
+    max-height: 90vh;
+    padding-bottom: 300px;
+    transform: translateY(-15%);
+    display: flex;
+    align-items: center;
+}
+
+.mast-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding-top: 20%;
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+
+.mast-sub {
+    font-weight: 600;
+    padding-bottom: 5%;
+    font-size: 2rem;
+    color: darksalmon;
+}
+
+.mast-title {
+    letter-spacing: 2px;
+    margin-bottom: 5rem;
+    padding-top: 2rem;
+    font-size: 4rem;
+    font-family: 'Caveat', cursive;
+    color:white;
+}
+
+.card-container {
+    background-color: white;
+    max-width: 90vw;
+    margin: 0 auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+#card-group {
+    gap: 40px 60px;
+    display: flex;
+    flex-wrap: wrap!important;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.col {
+    border: 1px solid black;
+    max-width: 300px;
+}
+.card-img-top {
+    width: 200px !important;
+}

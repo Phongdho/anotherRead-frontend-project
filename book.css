@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600&display=swap');
+
+body {
+    background-color: #F8EDEB;
+    font-family: 'Quicksand', sans-serif;
+    height: 100vh;
+}
+
+.navbar {
+    position: relative;
+    z-index: 1;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    max-width: 90vw;
+    margin: 1rem auto;
+    backdrop-filter: saturate(200%) blur(30px);
+    background-color: rgba(184, 151, 151, 0.4) !important;
+    border-radius: .75rem;
+}
+
+.nav-title {
+    font-weight: 600!important;
+    color: brown !important;
+}
+
+.me-2 {
+    height: 70%;
+    opacity: 0.8;
+    margin-top: 2px;
+}
+
+.me-3 {
+    height: 36px;
+    border: none;
+    color: white;
+    background-color: darksalmon;
+    margin-top: 2px;
+}
+
+.me-3:hover {
+    background-color: brown;
+}
+
+.card-container {
+    width: 90vw;
+    height: 80vh;
+    backdrop-filter: saturate(200%) blur(30px);
+    background-color: rgba(184, 151, 151, 0.3) !important;
+    border-radius: .75rem;
+    margin: 4rem auto;
+}
+
+.card-main {
+    height: 700px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+    padding-top: 6rem;
+}
+
+.main-left {
+    margin-left: 80px;
+    background-color: rgba(254, 250, 224, 0.5);
+    border-radius: 0.75rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+}
+
+.card-rank {
+    color: #005f73;
+    font-weight: 600;
+    text-shadow: 1px 1px #94d2bd;
+}
+.card-img-top {
+    width: 200px !important;
+    margin-top: 20px;
+    box-shadow: 4px 4px lightgray;
+}
+
+.card-body { 
+    margin-left: 10px;
+    margin-right: 40px;
+    line-height: 2rem;
+    padding-left: 60px;
+    border-left: 1px solid #76c893;
+}
+
+.card-title { 
+    font-weight: 600;
+    color: darksalmon;
+}
+.card-tittle::first-letter {
+    font-size: xx-large !important;
+    color: brown !important;
+}
+
+
+

@@ -12,6 +12,7 @@
     |- script.js
     |- image
         |- background.jpeg
+        |- anotherRead-mockup.png
     |- book.css
     |- page-0
         |- book.html
